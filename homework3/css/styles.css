@@ -1,0 +1,83 @@
+.header{
+    text-align: center;
+}
+
+.menu-item1:hover,
+.menu-item2:hover,
+.menu-item3:hover,
+.menu-item4:hover{
+    color: #46DDDB; 
+}
+
+.menu-item1,
+.menu-item2,
+.menu-item3,
+.menu-item4{
+    font-size: large;
+    
+}
+
+.menu-item1,
+.menu-item2,
+.menu-item3{
+    padding-right: 65px;
+}
+.first-container{
+    color: gray;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.photo{
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.text-under-image{
+    color: #C9C9C9;
+    text-align: left;
+}
+
+.paragraph{
+    max-width: 435px;
+    display: block;
+}
+
+.second-container{
+    color: gray;
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 40px;    
+}
+
+.third-container{
+    color: gray;
+    display: inline-block;
+    margin-left: 90px;    
+}
+
+.fourth-container{
+    color: gray;
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 40px;        
+}
+
+.fifth-container{
+    color: gray;
+    display: inline-block;
+    margin-left: 90px;       
+}
+
+.sixth-container{
+    color: gray;
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 40px;       
+}
+
+.button-load-more{
+    display: block;
+    margin-left: 45%;
+}
