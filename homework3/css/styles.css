@@ -26,6 +26,12 @@ body{
 .menu-item3{
     padding-right: 65px;
 }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
 .first-container{
     color: gray;
     display: inline-block;
