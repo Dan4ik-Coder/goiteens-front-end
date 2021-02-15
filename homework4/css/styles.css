@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.nav-container{
+    margin-top: 10px;
+}
+
 a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -69,4 +73,65 @@ ul{
 header{
     display: flex;
 }
+
+.section-pre-title{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    font-size: 24px;
+}
+
+.section-title-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.section-title:hover::after{
+    width: 50px;   
+}
+
+.section-title::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: rgb(243, 129, 129);
+    transition: 0.2s linear all;
+    margin-left: 130px;
+
+}
+
+.sect{
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.mini-sect{
+    width: 320px;
+}
+
+.mini-sect-title{
+    margin-bottom: 20px;
+}
+
+.image{
+}
+
+
 
